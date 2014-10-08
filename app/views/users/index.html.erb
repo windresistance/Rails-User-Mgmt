@@ -1,0 +1,27 @@
+<h2>Listing users</h2>
+<% if flash[:success] %>
+	<p><%= flash[:success] %></p>
+<% end %>
+<table>
+	<thead>
+		<th>First</th>
+		<th>Last</th>
+		<th>Email</th>
+		<th>Action</th>
+	</thead>
+	<tbody>
+		<% @users.each do |user| %>
+			<tr>
+				<td><%= user.first %></td>
+				<td><%= user.last %></td>
+				<td><%= user.email %></td>
+				<td>
+					<%= link_to 'Show', user_path(user) %> | 
+					<%= link_to 'Edit', edit_user_path(user) %> | 
+					<%= link_to 'Delete', user_path(user), :method => "delete" %>
+				</td>
+			</tr>
+		<% end %>
+	</tbody>
+</table>
+<%= link_to 'New User', new_user_path %>

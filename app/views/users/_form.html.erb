@@ -1,0 +1,16 @@
+<% if @user.errors %>
+	<% @user.errors.full_messages.each do |err| %>
+		<p><%= err %></p>
+	<% end %>
+<% end %>
+<%= form_for(@user) do |f| %>
+	<%= f.label :first, "First name" %>
+	<%= f.text_field :first, :autofocus => true %><br>
+	<%= f.label :last, "Last name" %>
+	<%= f.text_field :last %><br>
+	<%= f.label :email, "Email" %>
+	<%= f.text_field :email %><br>
+	<%= f.label :password, "Password" %>
+	<%= f.text_field :password %><br>
+	<%= f.submit %>
+<% end %>
