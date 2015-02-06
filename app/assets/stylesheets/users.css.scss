@@ -1,3 +1,34 @@
 // Place all the styles related to the Users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+	font-size: 18px;
+}
+
+#mainContainer {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.block {
+	margin: 20px 0;
+}
+	.col_name {
+		width: 40%;
+	}
+	.col_email {
+		width: 40%;
+	}
+	.col_action {
+		width: 20%;
+	}
+
+.form-table {
+	td:first-child {
+		padding: 10px 20px 10px 0;
+	}
+	td:last-child {
+		padding: 10px 0 10px 20px;
+	}
+}

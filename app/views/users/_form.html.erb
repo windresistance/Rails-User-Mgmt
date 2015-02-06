@@ -4,13 +4,26 @@
 	<% end %>
 <% end %>
 <%= form_for(@user) do |f| %>
-	<%= f.label :first, "First name" %>
-	<%= f.text_field :first, :autofocus => true %><br>
-	<%= f.label :last, "Last name" %>
-	<%= f.text_field :last %><br>
-	<%= f.label :email, "Email" %>
-	<%= f.text_field :email %><br>
-	<%= f.label :password, "Password" %>
-	<%= f.text_field :password %><br>
-	<%= f.submit %>
+	<table class="form-table block">
+		<tr>
+			<td><%= f.label :first, "First name" %></td>
+			<td><%= f.text_field :first, :autofocus => true %></td>
+		</tr>
+		<tr>	
+			<td><%= f.label :last, "Last name" %></td>
+			<td><%= f.text_field :last %></td>
+		</tr>
+		<tr>	
+			<td><%= f.label :email, "Email" %></td>
+			<td><%= f.text_field :email %></td>
+		</tr>
+		<tr>	
+			<td><%= f.label :password, "Password" %></td>
+			<td><%= f.text_field :password %></td>
+		</tr>
+		<tr>	
+			<td colspan="2"><%= f.submit :class => "btn btn-success pull-right" %></td>
+		</tr>
+	</table>
+	
 <% end %>

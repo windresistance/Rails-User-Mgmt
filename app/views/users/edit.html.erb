@@ -1,4 +1,10 @@
-<h2>Editing user</h2>
+<h2>
+	Edit contact
+	<span class="pull-right">
+		<%= link_to 'Back', users_path, :class => "btn btn-default" %>
+	</span>
+</h2>
+
 <%= render 'form' %>
-<%= link_to 'Show', user_path %> | 
-<%= link_to 'Back', users_path %>
+
+<!-- <%= link_to 'View', user_path, :class => "btn btn-default" %> -->

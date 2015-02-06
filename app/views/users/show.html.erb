@@ -1,8 +1,16 @@
-<% if flash[:success] %>
-	<p><%= flash[:success] %></p>
-<% end %>
-<p>First name: <%= @user.first %></p>
-<p>Last name: <%= @user.last %></p>
-<p>Email: <%= @user.email %></p>
-<%= link_to 'Edit', edit_user_path(@user) %> | 
-<%= link_to 'Back', users_path %>
+<h2>
+	Contact details
+	<span class="pull-right">
+		<%= link_to 'Back', users_path, :class => "btn btn-default" %>
+	</span>
+</h2>
+
+<!-- <div class="block"> -->
+	<table class="form-table block">
+		<tr><td>First name:</td><td><b><%= @user.first %></b><td></td>
+		<tr><td>Last name:</td><td><b><%= @user.last %></b><td></td>
+		<tr><td>Email:</td><td><b><%= @user.email %></b><td></td>
+	</table>
+<!-- </div> -->
+
+<%= link_to 'Edit', edit_user_path(@user), :class => "btn btn-default" %>

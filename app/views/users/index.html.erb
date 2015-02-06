@@ -1,27 +1,34 @@
-<h2>Listing users</h2>
+<h2>
+	Contacts
+	<span class="pull-right">
+		<%= link_to '+ New', new_user_path, :class => "btn btn-success margin-left" %>
+	</span>
+</h2>
+
 <% if flash[:success] %>
-	<p><%= flash[:success] %></p>
+	<p class="text-success"><%= flash[:success] %></p>
 <% end %>
-<table>
+
+<table class="table table-striped block">
 	<thead>
-		<th>First</th>
-		<th>Last</th>
-		<th>Email</th>
-		<th>Action</th>
+		<th class="col_name">Name</th>
+		<th class="col_email">Email</th>
+		<th class="col_action">Action</th>
 	</thead>
 	<tbody>
 		<% @users.each do |user| %>
-			<tr>
-				<td><%= user.first %></td>
-				<td><%= user.last %></td>
-				<td><%= user.email %></td>
-				<td>
-					<%= link_to 'Show', user_path(user) %> | 
-					<%= link_to 'Edit', edit_user_path(user) %> | 
-					<%= link_to 'Delete', user_path(user), :method => "delete" %>
-				</td>
-			</tr>
+				<tr>
+					<td class="col_name">
+						<%= link_to user_path(user) do %>
+							<%= user.first + " " + user.last %>
+						<% end %>
+					</td>
+					<td class="col_email"><%= user.email %></td>
+					<td class="col_action">
+						<%= link_to 'Edit', edit_user_path(user), :class => "btn btn-default" %>
+						<%= link_to 'Del', user_path(user), :method => "delete", :class => "btn btn-danger" %>
+					</td>
+				</tr>
 		<% end %>
 	</tbody>
 </table>
-<%= link_to 'New User', new_user_path %>
