@@ -24602,3 +24602,611 @@ Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-19 18:20:58 -0800
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-19 18:20:58 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-24 21:16:05 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (38.4ms)
+Completed 200 OK in 1818ms (Views: 1737.8ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-24 21:16:09 -0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-24 21:16:09 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-24 21:16:09 -0800
+
+
+Started GET "/assets/stylesheets/bootstrap.min.css" for 127.0.0.1 at 2015-02-24 21:16:09 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  c:/Ruby200-x64/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  c:/Ruby200-x64/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  c:/Ruby200-x64/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (54.0ms)
+  Rendered c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (94.3ms)
+  Rendered c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (483.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-24 21:16:09 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-24 21:16:10 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-24 21:16:10 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-24 21:16:10 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-24 21:16:10 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-24 21:16:10 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-24 21:16:10 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-24 21:16:10 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-24 21:16:10 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-24 21:16:10 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-24 21:16:10 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-24 21:16:10 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-24 21:16:10 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-24 21:16:10 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-24 21:16:10 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-02-24 21:16:10 -0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-24 21:16:10 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-24 21:16:10 -0800
+
+
+Started GET "/users/42/edit" for 127.0.0.1 at 2015-02-24 21:16:14 -0800
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"42"}
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 42]]
+  Rendered users/_form.html.erb (127.5ms)
+  Rendered users/edit.html.erb within layouts/application (144.4ms)
+Completed 200 OK in 891ms (Views: 881.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users/42/edit" for 127.0.0.1 at 2015-02-24 21:18:23 -0800
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"42"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 42]]
+  Rendered users/_form.html.erb (21.2ms)
+  Rendered users/edit.html.erb within layouts/application (35.2ms)
+Completed 200 OK in 803ms (Views: 795.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-24 21:18:25 -0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-24 21:18:25 -0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-24 21:18:25 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-24 21:18:25 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-24 21:18:25 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-24 21:18:25 -0800
+
+
+Started GET "/users/assets/stylesheets/bootstrap.min.css" for 127.0.0.1 at 2015-02-24 21:18:25 -0800
+
+ActionController::RoutingError (No route matches [GET] "/users/assets/stylesheets/bootstrap.min.css"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  c:/Ruby200-x64/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  c:/Ruby200-x64/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  c:/Ruby200-x64/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendered c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (280.2ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-24 21:18:25 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-24 21:18:25 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-24 21:18:25 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-24 21:18:25 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-24 21:18:25 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-24 21:18:25 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-24 21:18:25 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-24 21:18:25 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-24 21:18:25 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-24 21:18:25 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-24 21:18:25 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-24 21:18:25 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-02-24 21:18:26 -0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-24 21:18:26 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-24 21:18:26 -0800
+
+
+Started GET "/users" for 127.0.0.1 at 2015-02-24 21:18:34 -0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 757ms (Views: 753.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-02-24 21:18:37 -0800
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (7.0ms)
+  Rendered users/new.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 783ms (Views: 780.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-02-24 21:18:53 -0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 753ms (Views: 748.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-02-24 21:20:31 -0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 816ms (Views: 812.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-24 21:20:32 -0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-24 21:20:32 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-24 21:20:32 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-24 21:20:32 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-24 21:20:32 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-24 21:20:32 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-24 21:20:32 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-24 21:20:32 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-24 21:20:32 -0800
+
+
+Started GET "/assets/stylesheets/bootstrap.min.css" for 127.0.0.1 at 2015-02-24 21:20:32 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  c:/Ruby200-x64/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  c:/Ruby200-x64/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  c:/Ruby200-x64/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (59.0ms)
+  Rendered c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (338.2ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-24 21:20:33 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-24 21:20:33 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-24 21:20:33 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-24 21:20:33 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-24 21:20:33 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-24 21:20:33 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-24 21:20:33 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-24 21:20:33 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-24 21:20:33 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-02-24 21:20:33 -0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-24 21:20:33 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-24 21:20:33 -0800
+
+
+Started GET "/users/42/edit" for 127.0.0.1 at 2015-02-24 21:21:05 -0800
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"42"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 42]]
+  Rendered users/_form.html.erb (5.0ms)
+  Rendered users/edit.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 758ms (Views: 751.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-02-24 21:21:09 -0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 833ms (Views: 828.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/42" for 127.0.0.1 at 2015-02-24 21:21:11 -0800
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"42"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 42]]
+  Rendered users/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 743ms (Views: 736.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/42" for 127.0.0.1 at 2015-02-24 21:21:19 -0800
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"42"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 42]]
+  Rendered users/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 759ms (Views: 751.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-24 21:21:20 -0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-24 21:21:20 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:20 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:20 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-24 21:21:21 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:21 -0800
+
+
+Started GET "/assets/stylesheets/bootstrap.min.css" for 127.0.0.1 at 2015-02-24 21:21:21 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  c:/Ruby200-x64/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  c:/Ruby200-x64/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  c:/Ruby200-x64/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (274.2ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:21 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:21 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:21 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:21 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:21 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:21 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:21 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:21 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:21 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:21 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:21 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:21 -0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:21 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:21 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:21 -0800
+
+
+Started GET "/users/42/edit" for 127.0.0.1 at 2015-02-24 21:21:27 -0800
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"42"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 42]]
+  Rendered users/_form.html.erb (5.0ms)
+  Rendered users/edit.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 765ms (Views: 757.5ms | ActiveRecord: 0.0ms)
+
+
+Started PATCH "/users/42" for 127.0.0.1 at 2015-02-24 21:21:40 -0800
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jby3b52gDlcZuiY9CSbwpblaUmMmEAU3NKPKYxroyCE=", "user"=>{"first"=>"Nick", "last"=>"Jones", "email"=>"jonesnickb@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Update User", "id"=>"42"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 42]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mUPDATE "users" SET "password" = ?, "updated_at" = ? WHERE "users"."id" = 42[0m  [["password", "milkmilk"], ["updated_at", "2015-02-25 05:21:40.279337"]]
+  [1m[35m (78.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/users/42
+Completed 302 Found in 131ms (ActiveRecord: 81.7ms)
+
+
+Started GET "/users/42" for 127.0.0.1 at 2015-02-24 21:21:40 -0800
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"42"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 42]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 824ms (Views: 816.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-24 21:21:41 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-24 21:21:41 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:41 -0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-24 21:21:41 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:41 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:41 -0800
+
+
+Started GET "/assets/stylesheets/bootstrap.min.css" for 127.0.0.1 at 2015-02-24 21:21:41 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  c:/Ruby200-x64/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  c:/Ruby200-x64/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  c:/Ruby200-x64/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendered c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (273.2ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:42 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:42 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:42 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:42 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:42 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:42 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:42 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:42 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:42 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:42 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:42 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:42 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:42 -0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:42 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-24 21:21:42 -0800
+
+
+Started GET "/users/42/edit" for 127.0.0.1 at 2015-02-24 21:21:47 -0800
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"42"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 42]]
+  Rendered users/_form.html.erb (5.0ms)
+  Rendered users/edit.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 763ms (Views: 758.0ms | ActiveRecord: 1.0ms)
